@@ -15,6 +15,8 @@ return new class extends Migration
             $table->uuid("idPembicara")->primary();
             $table->string("namaPembicara");
             $table->string("asalPembicara");
+
+            $table->foreign("idPembicara")->references("idpembicara")->on("seminar");
         });
     }
 
