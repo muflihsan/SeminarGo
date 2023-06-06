@@ -39,14 +39,4 @@ class User extends Model
     protected $hidden = [
         'password',
     ];
-
-    /**
-     * The attributes that should be cast.
-     *
-     * @var array<string, string>
-     */
-    protected $casts = [
-        'email_verified_at' => 'datetime',
-        'password' => 'hashed',
-    ];
 }
