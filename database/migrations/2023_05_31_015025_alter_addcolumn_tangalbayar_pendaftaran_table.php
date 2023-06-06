@@ -11,27 +11,27 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::table('pendaftaran_', function (Blueprint $table) {
-           
-            $table->uuid("paymentdate");
-            
-			
+        Schema::table('pendaftaran', function (Blueprint $table) {
+
+            $table->date("paymentdate");
+
+
         });
     }
-    };
+
 
     /**
      * Reverse the migrations.
      */
-     function down(): void
+    function down(): void
     {
         {
-            Schema::table('pendaftaran_', function (Blueprint $table) {
-               
-                $table->uuid("paymentdate");
-                
-                
+            Schema::table('pendaftaran', function (Blueprint $table) {
+
+                $table->date("paymentdate");
+
+
             });
         }
-        };
-
+        }
+    };

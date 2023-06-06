@@ -11,14 +11,14 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('pendaftaran_', function (Blueprint $table) {
+        Schema::create('pendaftaran', function (Blueprint $table) {
             $table->uuid("id")->primary()->unique();
             $table->binary("paymentproof");
             $table->uuid("idUsers");
             $table->uuid("idseminar");
 			$table->foreign("idUsers")->references('idUsers')->on('user');
 			$table->foreign("idseminar")->references('id')->on('seminar');
-			
+
         });
     }
 
@@ -27,6 +27,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('pendaftaran_');
+        Schema::dropIfExists('pendaftaran');
     }
 };
