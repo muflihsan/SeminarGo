@@ -12,7 +12,7 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('sertifikat', function (Blueprint $table) {
-             $table->uuid("idSertifikat")->primary();
+            $table->uuid("idSertifikat")->primary();
             $table->uuid("idSeminar");
             $table->uuid("idUsers");
             $table->binary("sertifikatFile");

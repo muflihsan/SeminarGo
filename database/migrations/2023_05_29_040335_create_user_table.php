@@ -17,9 +17,9 @@ return new class extends Migration
             $table->string("userName")->required;
             $table->string("emailUser")->required;
             $table->string("password")->required;
-            $table->integer("noIdentitas");
-            $table->integer("noTelp");
-            $table->boolean("jenisKelamin");
+            $table->string("noIdentitas");
+            $table->string("noTelp");
+            $table->string("jenisKelamin");
             $table->string("asalInstansi");
             $table->string("RiwayatSeminar");
         });

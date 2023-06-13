@@ -16,6 +16,7 @@ return new class extends Migration
             $table->binary("paymentproof");
             $table->uuid("idUsers");
             $table->uuid("idseminar");
+            
 			$table->foreign("idUsers")->references('idUsers')->on('user');
 			$table->foreign("idseminar")->references('id')->on('seminar');
 
