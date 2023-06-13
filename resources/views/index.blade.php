@@ -43,17 +43,26 @@
   <header id="header" class="d-flex align-items-center ">
     <div class="container-fluid container-xxl d-flex align-items-center">
 
+
+      {{-- <div class="row">
+        <div class="col-lg-6">
+          <img src="assets/img/logo2.png" alt="Gambar">
+        </div>
+        <div class="col-lg-6">
+          <h1><a href="#index">Seminar<span>Tech</span></a></h1>
+        </div>
+      </div> --}}
+
       <div id="logo" class="me-auto">
         <!-- Uncomment below if you prefer to use a text logo -->
-        <h1><a href="index.html">Seminar<span>Tech</span></a></h1>-->
+        <h1><a href="#index">Seminar<span>Tech</span></a></h1>-->
         <a href="index.html" class="scrollto"><img src="assets/img/logo2.png" alt="" title=""></a>
       </div>
 
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#about">Events</a></li>
-          <li><a class="nav-link scrollto" href="#speakers">Speakers</a></li>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>          
+          <li><a class="nav-link scrollto" href="#speakers">Events</a></li>
           <li><a class="nav-link scrollto" href="#schedule">Schedule</a></li>
           <!--<li><a class="nav-link scrollto" href="#venue">Venue</a></li>-->
           <!--<li><a class="nav-link scrollto" href="#hotels">Hotels</a></li>-->
@@ -1033,7 +1042,7 @@
         <div class="row">
 
           <div class="col-lg-3 col-md-6 footer-info">
-            <img src="assets/img/logo.png" alt="TheEvenet">
+            <img src="assets/img/logo2.png" alt="TheEvenet">
             <p>In alias aperiam. Placeat tempore facere. Officiis voluptate ipsam vel eveniet est dolor et totam porro. Perspiciatis ad omnis fugit molestiae recusandae possimus. Aut consectetur id quis. In inventore consequatur ad voluptate cupiditate debitis accusamus repellat cumque.</p>
           </div>
 
